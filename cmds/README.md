@@ -16,6 +16,7 @@ Every step has its own guide in this folder.
 | 09 | 🖥️ | [09_free_disk_bf16.md](09_free_disk_bf16.md) | Optional, **not planned**: shrink the model from 31 GB to about 20 GB |
 | 10 | - | [10_troubleshooting.md](10_troubleshooting.md) | Common errors and fixes |
 | 11 | 🌐 → 🖥️ | [11_snapshot_updates.md](11_snapshot_updates.md) | Send only changed files later (`tools/snapshot_changes.py`) |
+| – | – | [qa_notes/](qa_notes/) | Daily Q&A notes: essential questions, answers and decisions ([2026-11-25](qa_notes/2026-11-25.md), [2026-11-26](qa_notes/2026-11-26.md)) |
 
 ## Default path: skip step 01
 Assumption: torch (with CUDA), transformers and CUDA are already installed on both GPU machines.
