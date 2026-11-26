@@ -1,0 +1,19 @@
+# --- Install PyTorch FIRST with a CUDA build that supports the RTX 5090 (Blackwell, sm_120) ---
+# CUDA 12.8 or newer wheels are required. Example:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+# Then:
+#   pip install -r requirements.txt
+
+diffusers>=0.36.0          # ZImagePipeline is included from 0.36
+transformers>=4.57         # Qwen3 text encoder
+accelerate>=1.0
+safetensors>=0.4
+pillow>=10.0
+
+# API service
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.6
+
+# Client example
+requests>=2.31

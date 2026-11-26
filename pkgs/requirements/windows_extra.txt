@@ -1,0 +1,2 @@
+# Windows-only dependencies (needed when downloading for Windows from a Linux machine).
+colorama

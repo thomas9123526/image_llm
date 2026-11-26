@@ -1,0 +1,3 @@
+# Only installed if transformers is missing or too old for Z-Image's Qwen3 text encoder (< 4.51).
+transformers>=4.51
+tokenizers

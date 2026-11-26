@@ -1,0 +1,26 @@
+# Model weights (31 GB) - moved separately
+models/
+
+# Downloaded wheels - rebuild with: python cmds/scripts/download_wheels.py --clean
+pkgs/5090/
+pkgs/h200/
+pkgs/inventory/
+
+# Transfer artifacts (local to this PC)
+.snapshots/
+SHA256SUMS.txt
+_changes/
+
+# Python / environments
+__pycache__/
+*.py[co]
+.venv/
+venv/
+.env
+
+# Runtime outputs
+zimage_service/outputs/
+zimage_service/bench_results/
+zimage_service/bench_*/
+zimage_service/*.png
+cmds/logs/

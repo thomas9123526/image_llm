@@ -1,0 +1,3 @@
+# Linux-only dependencies. pip evaluates platform markers on the DOWNLOAD machine, so when you
+# download for Linux from Windows these are not picked up automatically - list them here.
+uvloop

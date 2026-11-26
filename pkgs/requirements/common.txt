@@ -1,0 +1,15 @@
+# Packages our code needs that are NOT expected to be pre-installed on the GPU machines.
+# Downloaded WITH their dependencies. Nothing here depends on torch.
+diffusers>=0.36.0        # ZImagePipeline
+safetensors>=0.4
+huggingface_hub
+pillow>=10.0
+numpy
+packaging
+psutil                   # accelerate dependency
+pyyaml                   # accelerate dependency
+fastapi>=0.115
+pydantic>=2.6
+uvicorn>=0.30
+httptools                # fast HTTP parser for uvicorn
+requests>=2.31
